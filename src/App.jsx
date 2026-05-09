@@ -1,4 +1,5 @@
 import "./App.css";
+import { FormularioDeEnvento } from './components/FormularioDeEvento/FormularioDeEvento'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <section>
         <img src="/banner-desktop.png" alt="" />
       </section>
+      <FormularioDeEnvento />
     </main>
   );
 }
